@@ -31,7 +31,7 @@ const ScrollToTopButton = () => {
         type='button'
         onClick={scrollToTop} 
         className={isVisible ? 'opacity-100 inline-flex items-center p-3 rounded-full shadow-sm text-white bg-pink-400 transition-opacity hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-400 ' : 'opacity-0'}>
-        <BiArrowFromBottom className='h-12 w-12 hover:scale-125' aria-hidden='true' />
+        <BiArrowFromBottom className='h-12 w-12 hover:scale-110' aria-hidden='true' />
       </button>
     </div>
   );
